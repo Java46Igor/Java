@@ -3,7 +3,7 @@ import static telran.text.RegularExpressions.*;
 public class Strings {
 private static final int MAX_NUMBER = 999;
 
-	/**
+	/** 
 	 * 
 	 * @param name1 -  first name 
 	 * @param name2 - second name

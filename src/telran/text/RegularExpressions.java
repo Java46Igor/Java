@@ -15,7 +15,7 @@ public static String ipV4Regex() {
 	
 	return String.format("((%s)\\.){3}(%s)", ipOctetRegex(), ipOctetRegex());
 }
-
+ 
 /**
  * 
  * @return regular expression for arithmetic expression

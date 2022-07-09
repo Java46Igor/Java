@@ -48,7 +48,7 @@
 //		assertFalse(isIPv4("0.*.10.0"));
 //		assertFalse(isIPv4("-10.0.0.0"));
 //		assertFalse(isIPv4("100..10.1.1"));
-//		assertFalse(isIPv4("100.10.1.256"));
+//		assertFalse(isIPv4("100.10.1.256")); 
 //		assertFalse(isIPv4("a.10.1.1"));
 //		
 //	}
