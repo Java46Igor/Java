@@ -63,14 +63,6 @@ import org.junit.jupiter.api.Test;
 
 public class StringRegExTests {
 	@Test
-	void arithmeticExpressionTrue() {
-		assertTrue(isArithmeticExpression("a+b+c"));
-		assertTrue(isArithmeticExpression("a+16 * (4-b * 4)/10"));
-		assertTrue(isArithmeticExpression("a+2- 5.0 *(3-2+x)/1. 2"));
-		assertTrue(isArithmeticExpression("(a+4.2)-(abc4)*2"));
-		assertTrue(isArithmeticExpression("x+y-(__*$)+2.1"));
-	}
-	@Test
 	void arithmeticExpressionFalse() {
 
 		assertFalse(isArithmeticExpression("(-x+y+c"));
